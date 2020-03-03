@@ -13,10 +13,7 @@ def reverse_vowels(s):
   for k, ind in enumerate(vowels_i):
     s_l[ind] = vowels_s[k]
 
-  s = ''
-  for letter in s_l:
-    s+=letter
-  return s
+  return ''.join(s_l)
 
 s = "aA"
 reverse_vowels(s)
